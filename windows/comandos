@@ -1,0 +1,27 @@
+echo : escreve uma mensagem (bem parecido com o print). Ex.:
+echo Hello World
+Se eu quiser salvar esse texto em um arquivo .txt : echo Hello World > <nome_da_pasta>
+
+dir : mostra os diretorios que existem dentro da pasta atual
+
+cd : change directory. Entra na pasta selecionada
+
+. : pasta atual
+.. : pasta acima da minha
+
+mkdir : cria uma pasta
+
+move : move um arquivo de lugar. Exemplo:
+move <nome_do_arquivo> <destino>
+
+type : lê um arquivo
+
+copy : copia um arquivo.
+copy <nome do arquivo> <nome da copia>
+xcopy /e : copia todos os arquivos
+
+rename : renomear um arquivo
+rename <nome do arquivo> <novo nome>
+
+del : deletar arquivo
+del <nome do arquivo>
