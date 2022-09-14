@@ -1,0 +1,11 @@
+$ git config --global user.name "angelicamp"
+
+$ git config --global user.email "meu@email.com"
+
+$ git init
+
+$ git add . : adiciona todos os arquivos ao projeto
+
+$ git remote add origin https://github.com/angelicamp/livraria-alura.git : nesse caso passa o endereço disponivel pra clone
+
+$ git push origin main
