@@ -10,4 +10,10 @@ $ git commit -a -m "primeiro commit"
 
 $ git remote add origin https://github.com/angelicamp/livraria-alura.git : nesse caso passa o endereço disponivel pra clone
 
+$ git remote set-url : usado para alterar o endereço
+
 $ git push origin main
+
+$ git branch --list : lista as branches
+
+$ git remote set-url 
