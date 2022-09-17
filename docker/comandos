@@ -6,4 +6,5 @@ docker stop <id ou nome do container> : para a execução do container
 docker start <id ou nome do container> ; inicia o container
 docker exec -t <id ou nome do container> : executa o conteiner de modo interativo: eu consigo interagir com o que esta no container
 docker rm <id ou nome do container> : exclui/ remove o container
-
+docker build -t chatnode/app-node . : docker build vai montar uma imagem a partir do docker file criado. Esse "." significa diretorio atual
+-t : permite etiquetar uma imagem, ou seja, dar um nome para a imagem que eu estou criando (chatnode/app-node) 
