@@ -9,3 +9,4 @@ docker rm <id ou nome do container> : exclui/ remove o container
 docker build -t chatnode/app-node . : docker build vai montar uma imagem a partir do docker file criado. Esse "." significa diretorio atual
 -t : permite etiquetar uma imagem, ou seja, dar um nome para a imagem que eu estou criando (chatnode/app-node) 
 docker login -u <nome do usuario no hub> : login na conta do docker
+docker tag <nome atual> <novo nome>
