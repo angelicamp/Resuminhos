@@ -1,0 +1,9 @@
+docker run <nome da imagem>
+docker pull <nome da imagem> : baixa a imagem
+docker ps ou docker container ls : exibe quais containers estao em execução no momento
+docker ps -a : todos os containers ate mesmo os que nao estao em execução
+docker stop <id ou nome do container> : para a execução do container
+docker start <id ou nome do container> ; inicia o container
+docker exec -t <id ou nome do container> : executa o conteiner de modo interativo: eu consigo interagir com o que esta no container
+docker rm <id ou nome do container> : exclui/ remove o container
+
